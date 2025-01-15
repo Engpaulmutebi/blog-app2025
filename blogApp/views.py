@@ -1,17 +1,13 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render # type: ignore
+
 
 # Create your views here.
-def index(request,month):
-  message = None;
+def Starting_page(request):
+  pass
 
-  if month == 'jan':
-    message = "happy new year dear"
-  elif month == 'feb':
-    message = 'I love you sweet' 
-  else:
-    message = 'not supported'   
+def Posts(request):
+  pass
 
+def Posts_detail(request ):
+  pass
 
-
-  return HttpResponse(message)
