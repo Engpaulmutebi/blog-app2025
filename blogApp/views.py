@@ -9,6 +9,9 @@ def Posts(request):
    return render(request,"blogApp/all-posts.html")
 
 
-def Posts_detail(request ):
-  pass
+def Posts_detail(request,slug ):
+   return render(request,"blogApp/post-detail.html")
+
+
+  
 
